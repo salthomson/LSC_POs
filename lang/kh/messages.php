@@ -1,0 +1,102 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | All Titles and static string in blade files - English Language
+    |--------------------------------------------------------------------------
+    |
+    */
+    //menu.blade keys
+
+    'pdf' => [
+        'date' => 'កាលបរិច្ឆេទ',
+        'number' => 'លេខ',
+        'payment_status' => 'ស្ថានភាពបង់ប្រាក់',
+        'customer_info' => 'ព័ត៌មានអតិថិជន',
+        'name' => 'ឈ្មោះ',
+        'phone' => 'ទូរស័ព្ទ',
+        'address' => 'អាសយដ្ឋាន',
+        'email' => 'អ៊ីមែល',
+        'company_info' => 'ព័ត៌មានក្រុមហ៊ុន',
+        'product' => 'ផលិតផល',
+        'unit_price' => 'តម្លៃឯកតា',
+        'quantity' => 'បរិមាណ',
+        'discount' => 'ការបញ្ចុះតម្លៃ',
+        'tax' => 'ពន្ធ',
+        'total' => 'សរុប',
+        'order_tax' => 'ពន្ធលើការបញ្ជាទិញ',
+        'shipping' => 'ដឹកជញ្ជូន',
+        'paid_amount' => 'ចំនួនទឹកប្រាក់ដែលបានបង់',
+        'signature' => 'ហត្ថលេខា',
+        'status' => 'ស្ថានភាព',
+        'supplier_info' => 'ព័ត៌មានអ្នកផ្គត់ផ្គង់',
+        'unit_cost' => 'តម្លៃឯកតា',
+        'customer' => 'អតិថិជន',
+        'total_sales' => 'ការលក់សរុប',
+        'total_amount' => 'ចំនួនសរុប',
+        'total_paid' => 'បានបង់សរុប',
+        'total_sale_due' => 'ចំនួនលក់សរុបដែលជំពាក់',
+        'reference' => 'ឯកសារយោង',
+        'due_amount' => 'ចំនួនទឹកប្រាក់ដែលជំពាក់',
+        'customer_pdf' => 'ឯកសារ PDF អតិថិជន',
+        'customer_sales_pdf' => 'ឯកសារ PDF ការលក់អតិថិជន',
+        'sale_list' => 'បញ្ជីលក់',
+        'customer_name' => 'ឈ្មោះអតិថិជន',
+        'customer_quotations_pdf' => 'ឯកសារ PDF សម្រង់អតិថិជន',
+        'quotation_list' => 'បញ្ជីសម្រង់',
+        'customer_returns_pdf' => 'ឯកសារ PDF ត្រឡប់ទំនិញរបស់អតិថិជន',
+        'return_list' => 'បញ្ជីត្រឡប់ទំនិញ',
+        'customer_payments_pdf' => 'ឯកសារ PDF ការទូទាត់របស់អតិថិជន',
+        'payment_list' => 'បញ្ជីទូទាត់',
+        'received_amount' => 'ចំនួនទឹកប្រាក់ដែលបានទទួល',
+        'payment_type' => 'ប្រភេទនៃការទូទាត់',
+        'sale_reference' => 'ឯកសារយោងការលក់',
+        'top_customers_list' => 'បញ្ជីអតិថិជនកំពូល',
+        'top_customers_pdf' => 'ឯកសារ PDF អតិថិជនកំពូល',
+        'supplier' => 'អ្នកផ្គត់ផ្គង់',
+        'warehouse' => 'ឃ្លាំង',
+        'amount' => 'ចំនួនទឹកប្រាក់',
+        'category' => 'ប្រភេទ',
+        'code' => 'លេខកូដ',
+        'brand' => 'ម៉ាក',
+        'price' => 'តម្លៃ',
+        'product_unit' => 'ឯកតាផលិតផល',
+        'in_stock' => 'ក្នុងស្តុក',
+        'created_on' => 'បង្កើតនៅ',
+        'client' => 'អតិថិជន',
+        'sub_total' => 'អនុសរុប',
+        'paid' => 'បានបង់',
+        'due' => 'ជំពាក់',
+        'cost' => 'ថ្លៃដើម',
+        'current_stock' => 'ស្តុកបច្ចុប្បន្ន',
+        'product_code' => 'លេខកូដផលិតផល',
+        'product_name' => 'ឈ្មោះផលិតផល',
+    ],
+
+    'error' => [
+        'product_cant_deleted' => 'ផលិតផលមិនអាចលុបបានទេ។',
+        'code_taken' => 'លេខកូដត្រូវបានយក។',
+        'default_warehouse_cant_delete' => 'ឃ្លាំងលំនាំដើមមិនអាចលុបបានទេ។',
+        'warehouse_cant_delete' => 'ឃ្លាំងមិនអាចលុបបានទេ។',
+        'default_user_cant_delete' => 'អ្នកប្រើប្រាស់លំនាំដើមមិនអាចលុបបានទេ។',
+        'this_action_is_not_allowed_for_default_record' => 'សកម្មភាពនេះមិនត្រូវបានអនុញ្ញាតសម្រាប់កំណត់ត្រាលំនាំដើមទេ។',
+        'invalid_username_password' => 'អ៊ីមែលឬពាក្យសម្ងាត់មិនត្រឹមត្រូវ។',
+        'available_quantity' => 'បរិមាណត្រូវតែតិចជាងបរិមាណដែលមាន។',
+        'product_category_can_not_delete' => 'ប្រភេទផលិតផលមិនអាចលុបបានទេ។',
+    ],
+
+    'success' => [
+        'cache_clear_successfully' => 'ឃ្លាំងសម្ងាត់បានសម្អាតដោយជោគជ័យ',
+        'product_category_delete' => 'ប្រភេទផលិតផលត្រូវបានលុបដោយជោគជ័យ។',
+    ],
+
+    'heading_discount' => 'បញ្ចុះតម្លៃ',
+    'heading_total' => 'សរុប',
+    'sale_pdf' => 'ឯកសារ PDF លក់',
+    'purchase_pdf' => 'ឯកសារ PDF ទិញ',
+    'Sale_return_pdf' => 'ឯកសារ PDF ត្រឡប់ការលក់',
+    'purchase_return_pdf' => 'ឯកសារ PDF ត្រឡប់ការទិញ',
+    'quotation_pdf' => 'ឯកសារ PDF សម្រង់',
+];
